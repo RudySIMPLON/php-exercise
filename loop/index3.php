@@ -1,19 +1,15 @@
-<?php 
 
-$first = 100;
-$second = 10;
-$multip = $first * $second;
-$decr = $first --;
+<?php  
 
-while ( $first >= 10) {
-	
-	echo  "<li>$multip</li>";
-	
+$first=100;
+$second=10;
+$multip= $first * $second;
 
-	echo $first--;
+while ( $first>= 10) {
+    $multip=$first--*$second;
+
+    echo "si i=$first alors j=$multip</br>";
+
 
 }
-
-
-
- ?>
+?>
